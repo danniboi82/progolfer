@@ -33,12 +33,41 @@ body {
     width: 100%;
 }
 
-footer {
-    width: 100%;
-    height: 150px;
-    background: #f8f9fa;
+.footer-logo {
+    height: 125px;
+    width: 125px;
+    margin: auto;
 }
 
+.footer-logo-img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background: #f8f9fa;
+    padding-top: 45px;
+}
+
+
+.sitemap {
+    list-style: none;
+    line-height: 200%;
+}
+
+.sitemap-item {
+    color: black;
+}
+
+.social-media-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.social-media-img {
+    width: 100%
+}
 
 @media only screen and (max-width: 675px) {
     .carousel-inner {
